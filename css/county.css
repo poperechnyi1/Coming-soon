@@ -1,0 +1,79 @@
+#no-reflection {
+  width: 330px !important;
+
+}
+
+
+.county span.first
+{
+  border-radius: 50%;
+
+}
+.county span.last
+{
+  border-radius: 50%;
+
+}
+/*день, час, минута, секунда*/
+.county > span
+{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24pt;
+    vertical-align: middle;
+    /*line-height: 72px;*/
+    position: relative;
+    overflow: hidden;
+    /*padding: 12px;*/
+    border-radius: 50%;
+}
+
+
+
+.county-days, .county-hours, .county-minutes{
+  top:16px;
+  text-align: center;
+}
+
+
+.county > span > span
+{
+    display: block;
+    border-radius: 50%;
+}
+
+.county-label-days, .county-label-hours, .county-label-minutes, .county-label-seconds{
+    margin:0 20px;
+    height: 30px !important;
+
+    color: #f3f3f3 !important;
+    font-size: 24px !important;
+    line-height: 18px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 10px;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+
+}
+
+
+
+
+/*blue*/
+.county-days-wrapper,  .county-hours-wrapper, .county-minutes-wrapper,  .county-seconds-wrapper
+{
+    color: white;
+    background: #b9d6ef;
+    margin: 0 20px;
+}
+
+.county.blue .county-label-days, .county.blue .county-label-hours, .county.blue .county-label-minutes, .county.blue .county-label-seconds
+{
+    color: #FFFFFF;
+}

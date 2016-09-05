@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family:"HouschkaPro-Bold";
+  src: url(fonts/HouschkaPro-Bold.otf);
+}
+
+@font-face {
+  font-family:"HouschkaRounded-Bold";
+  src: url(fonts/HouschkaRoundedBold.otf);
+}
+
+body{
+  background: #b9d6ef;
+}
+
+
+/*-------------верхняя часть---------------*/
+header{
+  height: 110px;
+  width: 730px;
+  margin: 0 auto;
+}
+
+/*header img{
+  display: inline-block;
+}*/
+
+.cloud-left{
+  margin-right: 72px;
+  position: relative;
+  top:-165px;
+}
+
+.cloud-right{
+  margin-left: 78px;
+  position: relative;
+  top:-174px;
+}
+
+/*---------------- Основной контет-------------------------*/
+article{
+  width: 520px;
+  margin: 0 auto;
+  padding-bottom: 215px;
+}
+
+
+h1{
+  font: bold 70px/55px HouschkaRounded-Bold sans-serif;
+  color:#efefef;
+  text-shadow:#9ab2c7 3px 3px 3px;
+  text-transform: uppercase;
+  padding-bottom:20px;
+}
+
+h6{
+  font:14pt HouschkaPro-Bold sans-serif;
+  color:#266b97;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"]{
+  width: 220px;
+  padding: 10px 10px;
+  font: 12pt Arial sans-serif;
+  border: 1px solid #d1d1d0;
+  border-radius: 3px;
+  -webkit-border-radius: 3px; /*закругление углов (Google Chrome)*/
+  -moz-border-radius: 3px; /*закругление углов (FireFox)*/
+  -khtml-border-radius: 3px; /*закругление углов (Safari)*/
+  outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+  box-shadow: inset -1px 1px 3px  #d1d1d0;
+}
+
+
+input[type="submit"]{
+  padding: 11px 10px;
+  border: 1px solid #faaa22;
+  background: linear-gradient(0deg,#f8a426, #fddf5f);
+  border-radius: 3px;
+  -webkit-border-radius: 3px; /*закругление углов (Google Chrome)*/
+  -moz-border-radius: 3px; /*закругление углов (FireFox)*/
+  -khtml-border-radius: 3px; /*закругление углов (Safari)*/
+}
+
+
+footer{
+  background: #266b97;
+}
+
+.subscribe{
+  text-align: center;
+}
+
+.white-line{
+  height: 5px;
+  background:  #ddecfa;
+}
+
+.blue-line{
+  height: 10px;
+  background: #327dad;
+}
+
+.container{
+	position: relative;
+  width: 520px;
+  margin: 0 auto;
+}
+
+.ice{
+  position:relative;
+  top:-200px;
+  left: 60px;
+}
+
+.ship{
+  float: left;
+  position:relative;
+  left: 58px;
+  top:-27px;
+}
+
+#no-reflection{
+	position: absolute;
+	top: 60px;
+	left: 100px;
+
+}
